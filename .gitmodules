@@ -1,0 +1,3 @@
+[submodule "llm_sim/genz"]
+	path = llm_sim/genz
+	url = https://github.com/abhibambhaniya/GenZ-LLM-Analyzer.git

@@ -1,0 +1,20 @@
+{
+	"cpu": {
+	  "num_cores": 96,
+	  "per_core_pq_throughput": 18e9,
+	  "per_core_rerank_throughput": 10e9
+	},
+	"llc": {
+	  "bandwidth": 1e12,
+	  "capacity": 64e6
+	},
+	"ddr": {
+	  "bandwidth": 400e9,
+	  "capacity": 384e9
+	},
+	"storage": {
+	  "bandwidth": null,
+	  "capacity": null
+	}
+}
+  

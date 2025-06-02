@@ -1,0 +1,8 @@
+model.name,model.stage,model.dec_steps,model.seq_len_inference_prefill,hardware.name,hardware.num_chips,batch_size,time_ms
+st100m,prefill,1,128,xpu,1,1,1
+st100m,prefill,1,128,xpu,1,2,1
+st100m,prefill,1,128,xpu,1,4,1
+st100m,prefill,1,128,xpu,1,8,1.5
+st100m,prefill,1,128,xpu,1,16,2
+st100m,prefill,1,128,xpu,1,32,3
+st100m,prefill,1,128,xpu,1,64,5
