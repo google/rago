@@ -87,6 +87,25 @@ Code in this Github repository is licensed under a [APACHE 2.0 License](./LICENS
 }
 ```
 
+In addition to RAGO, there are some related works about improving RAG serving performance, specifically:
+
+* [KDD'25] [PipeRAG: Fast retrieval-augmented generation via adaptive pipeline parallelism](https://www.amazon.science/publications/piperag-fast-retrieval-augmented-generation-via-adaptive-pipeline-parallelism)
+
+PipeRAG addresses performance optimization for RAG with iterative retrieval by algorithm- and system-level improvements.
+
+* [VLDB'25] [Chameleon: A Heterogeneous and Disaggregated Accelerator System for Retrieval-Augmented Language Models](https://arxiv.org/pdf/2310.09949)
+
+Chameleon is a heterogeneous accelerator system for RAG serving. It prototypes FPGA-based accelerators for retrieval and runs LLM inference on GPUs.
+
+* [SC'23] [Co-design Hardware and Algorithm for Vector Search](https://arxiv.org/pdf/2306.11182)
+
+FANNS accelerates product-quantization-based vector search.
+
+* [VLDB'25] [Fast Graph Vector Search via Hardware Acceleration and Delayed-Synchronization Traversal](https://arxiv.org/abs/2406.12385)
+
+Falcon accelerates graph-based vector search.
+
+
 *This is not an officially supported Google product. This project is not
 eligible for the [Google Open Source Software Vulnerability Rewards
 Program](https://bughunters.google.com/open-source-security).*
